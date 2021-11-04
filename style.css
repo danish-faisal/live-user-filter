@@ -92,3 +92,19 @@ body {
 .user-list li.hide {
   display: none;
 }
+
+/* To Style the Default Scrollbar */
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #eee;
+  border-radius: 20px;
+  border: 1px solid #bbb;
+}
